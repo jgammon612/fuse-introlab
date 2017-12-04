@@ -1,11 +1,5 @@
 # Red Hat Agile API Integration Workshop - Microservices-based Managed API Integration
 
-This very simple lab will guide you to create your very first Fuse-based SpringBoot microservice project running on OpenShift. There are 4 sections in the labs.
-
-* Create a project that read from a database
-* Expose a restful API endpoint to access data in the database
-* Deploy your application on OpenShift
-* Manage and control the access to your API using 3scale
 
 ## Red Hat 3scale API Management Platform Account
 This lab focuses on the deployment and administration of Red Hat 3Scale. One deployment topology available is known as a *hybrid* approach. A *hybrid* Red Hat 3Scale deployment topology is one in which the 3Scale API gateway is self-managed in your own environment. This self-managed API gateway is in two-way communication with the hosted Red Hat 3Scale SaaS API Management Platform (AMP).
@@ -16,36 +10,7 @@ The focus of lab 04 of this course is on this hybrid deployment topology. Subseq
 
 You will receive an email in your inbox to complete the signup process and activate your account.
 
-## Installation
-Before you begin, please make sure the following software are properly installed
 
-* JBoss Development Suite V1.3 (MacOX/Windows), sorry Linux users, you are on your own
-	* JBoss Developer Studio 10.3.0.GA with Integration SOA plugin installed
-	https://developers.redhat.com/products/devsuite/download/
-	* Java Platform, Standard Edition 1.8.0.111
-	* Red Hat Container Development Kit 2.4.0.GA
-	* Oracle Virtualbox 5.0.26
-	* Vagrant 1.8.1
-
-## Installing and setup development environment
-Double click on the JBoss Development Suite, log in using your Red Hat Developer Site credentials.
-
-![01-login.png](./img/01-login.png)
-
-Pick an installation folder destination.
-The installer guide will detect the components needed, and guide you through the installation process.
-
-Installed the components with the version specified in the installer and start to download and install.
-
-![02-components.png](./img/02-components.png)
-
-Immediately after installation, you will be prompted to select a workspace for your developer studio project. Select anything path of your choice.
-
-Once inside Red Hat JBoss Developer Studio, select "Software/Update" tag in the middle panel. Check the "JBoss Fuse Development" box and click on Install/Update button.
-
-![04-plugin.png](./img/04-plugin.png)
-
-Red Hat JBoss Developer Studio will restart.
 
 ## Installing and setup Container Development Kit
 
