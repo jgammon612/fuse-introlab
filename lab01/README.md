@@ -46,7 +46,7 @@ In File, put **schema.sql** as the file name, and make sure it's under the myfus
 Add the following SQL to **schema.sql**
 
 ```
-CREATE TABLE customerdemo (
+CREATE TABLE IF NOT EXISTS customerdemo (
 	customerID varchar(10) NOT NULL,
 	vipStatus varchar(10) NOT NULL ,
 	balance integer NOT NULL
